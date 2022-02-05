@@ -1,4 +1,4 @@
-###GoogleTest setup for Eclipse Embedded CDT
+### GoogleTest setup for Eclipse Embedded CDT
 
 *GoogleTest v1.11.0 libs are pre-compiled using Cygwin GCC 11.2.0, you can rebuild them yourself to recent versions*
 
@@ -9,6 +9,8 @@
 * Add `test/lib` to **Lib Paths** in Paths and Symbols
 
 * Add `gtest`and `gmock` to **Libs** in Paths and Symbols
+
+* Add `test/` to **Sources** in Paths and Symbols
 
 * Build test configuration with `test_platform.cpp` (checks platform is <u>exactly</u> 32-bit)
 
