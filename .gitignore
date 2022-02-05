@@ -1,0 +1,11 @@
+# Eclipse project outputs
+Debug
+Release
+.settings
+
+# Test config outputs
+/TestMinGW
+/gTest
+
+# SVN
+.svn
